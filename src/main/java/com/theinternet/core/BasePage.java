@@ -11,7 +11,7 @@ import java.time.Duration;
 public abstract class BasePage {
 
     protected WebDriver driver;
-    private final WebDriverWait wait;
+    WebDriverWait wait;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -29,5 +29,10 @@ public abstract class BasePage {
         element.click();
         element.clear();
         element.sendKeys(text);
+    }
+
+    public String getText(WebElement element) {
+        wait.until(ExpectedConditions.visibilityOf(element));
+        return element.getText();
     }
 }
