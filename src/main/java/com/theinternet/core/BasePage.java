@@ -2,10 +2,7 @@ package com.theinternet.core;
 
 import com.theinternet.pages.JavascriptAlertsPage;
 import org.jspecify.annotations.NonNull;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -62,4 +59,6 @@ public abstract class BasePage {
         waitAlert();
         driver.switchTo().alert().sendKeys(text);
     }
+
+
 }

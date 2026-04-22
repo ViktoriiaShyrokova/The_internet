@@ -14,7 +14,6 @@ public class JavascriptAlertsTests extends TestBase {
     @BeforeEach
     public void preconditions() {
         new HomePage(driver).openJavascriptAlerts();
-
     }
 
     @Test
