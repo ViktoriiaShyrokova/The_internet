@@ -1,4 +1,4 @@
-package com.theinternet.pages.addRemoveElements;
+package com.theinternet.pages;
 
 import com.theinternet.core.BasePage;
 import org.openqa.selenium.WebDriver;

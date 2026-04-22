@@ -2,7 +2,7 @@ package com.theinternet.tests;
 
 import com.theinternet.core.TestBase;
 import com.theinternet.pages.HomePage;
-import com.theinternet.pages.abTesting.AbTestingPage;
+import com.theinternet.pages.AbTestingPage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

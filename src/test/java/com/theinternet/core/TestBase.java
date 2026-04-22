@@ -12,13 +12,11 @@ import java.time.Duration;
 public class TestBase {
     
     protected WebDriver driver;
-    WebDriverWait wait;
     
     @BeforeEach
     public void init(){
         driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         driver.manage().window().maximize();
     }
     
