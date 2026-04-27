@@ -1,0 +1,10 @@
+13743 [main] ERROR c.theinternet.core.TestResultLogger - TEST FAILED: multipleWindowsTest()
+13745 [main] ERROR c.theinternet.core.TestResultLogger - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href$='/window/new']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.2', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: /var/folders/w6/sgsgw1md3b1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50060}, goog:processID: 2172, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50060/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc1988336287f8b25fdb22f471c19cfe
+13823 [main] ERROR c.theinternet.core.TestResultLogger - Screenshot saved: /Users/arturvikki/QA_Projects/TheInternet/screenshots/screen-1777273758757.png
+13920 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================

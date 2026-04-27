@@ -1,28 +1,38 @@
 package com.theinternet.core;
 
+import com.theinternet.utils.ScreenshotUtil;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.TestInfo;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
-import java.time.Duration;
-
+@ExtendWith(TestResultLogger.class)
 public class TestBase {
-    
+
     protected WebDriver driver;
-    
+    protected boolean testFailed;
+
     @BeforeEach
-    public void init(){
-        driver = new ChromeDriver();
+    public void init() {
+
+        String browser = System.getProperty("browser", "chrome");
+
+        switch (browser) {
+            case "firefox" -> driver = new FirefoxDriver();
+            case "safari" -> driver = new SafariDriver();
+            default -> driver = new ChromeDriver();
+        }
+
+        DriverManager.setDriver(driver);
+
         driver.get("https://the-internet.herokuapp.com/");
         driver.manage().window().maximize();
     }
-    
-    @AfterEach
-    @Disabled("Tests are not finished yet")
-    public void tearDown(){
-        if(driver != null) driver.quit();
+
+
+
     }
-}

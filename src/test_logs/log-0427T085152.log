@@ -1,0 +1,3 @@
+13964 [main] ERROR c.theinternet.core.TestResultLogger - FAILED: multipleWindowsTest()
+13965 [main] INFO  c.theinternet.core.TestResultLogger - Stop test
+13965 [main] INFO  c.theinternet.core.TestResultLogger - **************************************************

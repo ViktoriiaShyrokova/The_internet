@@ -1,13 +1,13 @@
 package com.theinternet.core;
 
-import com.theinternet.pages.JavascriptAlertsPage;
-import org.jspecify.annotations.NonNull;
 import org.openqa.selenium.*;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class BasePage {
 
@@ -60,5 +60,12 @@ public abstract class BasePage {
         driver.switchTo().alert().sendKeys(text);
     }
 
+    protected void waitForNumberOfWindows(int expectedCount) {
+        wait.until(d -> driver.getWindowHandles().size() == expectedCount);
+    }
+    protected void switchToWindow(int index) {
+        List<String> tabs = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(index));
+    }
 
 }

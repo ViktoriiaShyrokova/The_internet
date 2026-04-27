@@ -1,0 +1,2 @@
+14385 [main] ERROR c.theinternet.core.TestResultLogger - TEST FAILED: multipleWindowsTest()
+14389 [main] ERROR c.theinternet.core.TestResultLogger - Reason: expected: <New Window> but was: <Opening a new window>

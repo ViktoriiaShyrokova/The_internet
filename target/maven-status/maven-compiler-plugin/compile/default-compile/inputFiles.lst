@@ -1,0 +1,9 @@
+/Users/arturvikki/QA_Projects/TheInternet/src/main/java/com/theinternet/core/BasePage.java
+/Users/arturvikki/QA_Projects/TheInternet/src/main/java/com/theinternet/pages/AbTestingPage.java
+/Users/arturvikki/QA_Projects/TheInternet/src/main/java/com/theinternet/pages/AddRemoveElementsPage.java
+/Users/arturvikki/QA_Projects/TheInternet/src/main/java/com/theinternet/pages/FramesPage.java
+/Users/arturvikki/QA_Projects/TheInternet/src/main/java/com/theinternet/pages/HomePage.java
+/Users/arturvikki/QA_Projects/TheInternet/src/main/java/com/theinternet/pages/JavascriptAlertsPage.java
+/Users/arturvikki/QA_Projects/TheInternet/src/main/java/com/theinternet/pages/MultipeWindowsPage.java
+/Users/arturvikki/QA_Projects/TheInternet/src/main/java/com/theinternet/pages/basicAuth/BasicAuthPage.java
+/Users/arturvikki/QA_Projects/TheInternet/src/main/java/com/theinternet/utils/ScreenshotUtil.java

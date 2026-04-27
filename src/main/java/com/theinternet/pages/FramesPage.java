@@ -19,8 +19,6 @@ public class FramesPage extends BasePage {
     WebElement iframe;
     @FindBy(css = "frame[name='frame-top']")
     WebElement topFrame;
-    @FindBy(xpath = "//frameset[@name='frameset-middle']//frame")
-    List<WebElement> frameset;
     @FindBy(css = "body")
     WebElement body;
     @FindBy(css = "div[role='alert'] .tox-icon")
