@@ -1,16 +1,14 @@
 package com.theinternet.pages;
 
 import com.theinternet.core.BasePage;
-import org.openqa.selenium.WebDriver;
+import com.theinternet.core.DriverManager;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.List;
 
 public class FramesPage extends BasePage {
-
-    public FramesPage(WebDriver driver) {
-        super(driver);
+    public FramesPage() {
+        super();
     }
 
     @FindBy(css = "a[href='/nested_frames']")
@@ -32,14 +30,14 @@ public class FramesPage extends BasePage {
     }
 
     public FramesPage switchToNestedFrame(String frameName) {
-        driver.switchTo().defaultContent();
-        driver.switchTo().frame(topFrame);
-        driver.switchTo().frame(frameName);
+        DriverManager.getDriver().switchTo().defaultContent();
+        DriverManager.getDriver().switchTo().frame(topFrame);
+        DriverManager.getDriver().switchTo().frame(frameName);
         return this;
     }
     public FramesPage switchToFrame(String frameName) {
-        driver.switchTo().defaultContent();
-        driver.switchTo().frame(frameName);
+        DriverManager.getDriver().switchTo().defaultContent();
+        DriverManager.getDriver().switchTo().frame(frameName);
         return this;
     }
 
@@ -56,7 +54,7 @@ public class FramesPage extends BasePage {
         return this;
     }
     public FramesPage switchToIframe() {
-        driver.switchTo().frame(iframeElem);
+        DriverManager.getDriver().switchTo().frame(iframeElem);
         return this;
     }
 }

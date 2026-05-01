@@ -1,15 +1,12 @@
 package com.theinternet.pages;
 
 import com.theinternet.core.BasePage;
-import org.junit.jupiter.api.Assertions;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class JavascriptAlertsPage extends BasePage {
-
-    public JavascriptAlertsPage(WebDriver driver) {
-        super(driver);
+    public JavascriptAlertsPage() {
+        super();
     }
 
     @FindBy(xpath = "//button[.='Click for JS Alert']")

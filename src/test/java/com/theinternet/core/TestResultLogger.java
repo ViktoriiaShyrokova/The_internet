@@ -8,39 +8,37 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class TestResultLogger implements TestWatcher {
-
     private static final Logger logger = LoggerFactory.getLogger(TestResultLogger.class);
+
+    @Override
+    public void testFailed(ExtensionContext context, Throwable cause) {
+        logger.error("TEST FAILED: {}", context.getDisplayName());
+
+        WebDriver driver = DriverManager.getDriver();
+        if (driver != null) {
+            // 1. Делаем скриншот, пока драйвер живой
+            String path = ScreenshotUtil.take(driver);
+            logger.error("Screenshot: {}", path);
+
+            // 2. Закрываем браузер
+            driver.quit();
+
+            // 3. ОБЯЗАТЕЛЬНО чистим ThreadLocal для этого потока
+            DriverManager.removeDriver();
+        }
+    }
 
     @Override
     public void testSuccessful(ExtensionContext context) {
         logger.info("TEST PASSED: {}", context.getDisplayName());
+        closeDriver();
+    }
+
+    private void closeDriver() {
         WebDriver driver = DriverManager.getDriver();
         if (driver != null) {
             driver.quit();
             DriverManager.removeDriver();
         }
-        logger.info("=".repeat(50));
-    }
-
-    @Override
-    public void testFailed(ExtensionContext context, Throwable cause) {
-        logger.error("TEST FAILED: {}", context.getDisplayName());
-        logger.error("Reason: {}", cause.toString());
-
-        WebDriver driver = DriverManager.getDriver();
-
-        if (driver != null) {
-            try {
-                String screenshotPath = ScreenshotUtil.take(driver);
-                logger.error("Screenshot saved: {}", screenshotPath);
-            } catch (Exception e) {
-                logger.error("Screenshot failed: {}", e.getMessage());
-            } finally {
-                driver.quit();
-                DriverManager.removeDriver();
-            }
-        }
-
-        logger.info("=".repeat(50));
     }
 }

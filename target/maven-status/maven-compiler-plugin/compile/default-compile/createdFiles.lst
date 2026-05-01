@@ -1,1 +1,10 @@
+com/theinternet/core/DriverManager.class
+com/theinternet/pages/HomePage.class
+com/theinternet/pages/FramesPage.class
+com/theinternet/pages/AddRemoveElementsPage.class
+com/theinternet/pages/MultipeWindowsPage.class
+com/theinternet/pages/BasicAuthPage.class
+com/theinternet/pages/JavascriptAlertsPage.class
+com/theinternet/pages/AbTestingPage.class
+com/theinternet/core/BasePage.class
 com/theinternet/utils/ScreenshotUtil.class

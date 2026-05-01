@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.theinternet.tests.MultipleWindowsTests" time="14.327" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.theinternet.tests.MultipleWindowsTests" time="7.499" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,10 +13,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="DE"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/arturvikki/QA_Projects/TheInternet/target/surefire/surefirebooter-20260426121131095_3.jar /Users/arturvikki/QA_Projects/TheInternet/target/surefire 2026-04-26T12-11-31_058-jvmRun1 surefire-20260426121131095_1tmp surefire_0-20260426121131095_2tmp"/>
+    <property name="sun.java.command" value="/Users/arturvikki/QA_Projects/TheInternet/target/surefire/surefirebooter-20260501132034231_3.jar /Users/arturvikki/QA_Projects/TheInternet/target/surefire 2026-05-01T13-20-34_184-jvmRun1 surefire-20260501132034231_1tmp surefire_0-20260501132034231_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="MultipleWindowsTests"/>
     <property name="surefire.test.class.path" value="/Users/arturvikki/QA_Projects/TheInternet/target/test-classes:/Users/arturvikki/QA_Projects/TheInternet/target/classes:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-java/4.43.0/selenium-java-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-api/4.43.0/selenium-api-4.43.0.jar:/Users/arturvikki/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.43.0/selenium-chrome-driver-4.43.0.jar:/Users/arturvikki/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.43.0/selenium-chromium-driver-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-json/4.43.0/selenium-json-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.43.0/selenium-manager-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v145/4.43.0/selenium-devtools-v145-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v146/4.43.0/selenium-devtools-v146-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v147/4.43.0/selenium-devtools-v147-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.43.0/selenium-edge-driver-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.43.0/selenium-firefox-driver-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-http/4.43.0/selenium-http-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.43.0/selenium-ie-driver-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.43.0/selenium-remote-driver-4.43.0.jar:/Users/arturvikki/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/arturvikki/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/arturvikki/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/arturvikki/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/arturvikki/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-api/1.60.1/opentelemetry-api-1.60.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-context/1.60.1/opentelemetry-context-1.60.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-common/1.60.1/opentelemetry-common-1.60.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.60.1/opentelemetry-exporter-logging-1.60.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.60.1/opentelemetry-sdk-common-1.60.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.60.1/opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.60.1/opentelemetry-sdk-extension-autoconfigure-1.60.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.60.1/opentelemetry-sdk-trace-1.60.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.60.1/opentelemetry-sdk-1.60.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.60.1/opentelemetry-sdk-metrics-1.60.1.jar:/Users/arturvikki/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.60.1/opentelemetry-sdk-logs-1.60.1.jar:/Users/arturvikki/.m2/repository/net/bytebuddy/byte-buddy/1.18.8-jdk5/byte-buddy-1.18.8-jdk5.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-os/4.43.0/selenium-os-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.43.0/selenium-safari-driver-4.43.0.jar:/Users/arturvikki/.m2/repository/org/seleniumhq/selenium/selenium-support/4.43.0/selenium-support-4.43.0.jar:/Users/arturvikki/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/arturvikki/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/arturvikki/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/arturvikki/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/arturvikki/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/arturvikki/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/arturvikki/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/arturvikki/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/arturvikki/.m2/repository/ch/qos/logback/logback-classic/1.5.32/logback-classic-1.5.32.jar:/Users/arturvikki/.m2/repository/ch/qos/logback/logback-core/1.5.32/logback-core-1.5.32.jar:/Users/arturvikki/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/arturvikki"/>
@@ -31,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/arturvikki/QA_Projects/TheInternet/target/surefire/surefirebooter-20260426121131095_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/arturvikki/QA_Projects/TheInternet/target/surefire/surefirebooter-20260501132034231_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.10+8-LTS-217"/>
@@ -41,7 +40,6 @@
     <property name="os.version" value="26.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="safari"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="/Users/arturvikki/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -60,88 +58,15 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="multipleWindowsTest" classname="com.theinternet.tests.MultipleWindowsTests" time="14.317">
-    <failure message="expected: &lt;New Window&gt; but was: &lt;Opening a new window&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <New Window> but was: <Opening a new window>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-	at com.theinternet.tests.MultipleWindowsTests.multipleWindowsTest(MultipleWindowsTests.java:22)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-]]></failure>
-    <system-out><![CDATA[12:11:45.698 [main] ERROR c.theinternet.core.TestResultLogger - TEST FAILED: multipleWindowsTest()
-12:11:45.702 [main] ERROR c.theinternet.core.TestResultLogger - Reason: expected: <New Window> but was: <Opening a new window>
+  <testcase name="simpleAlertTest" classname="com.theinternet.tests.JavascriptAlertsTests" time="7.475">
+    <system-out><![CDATA[13:20:41.326 [ForkJoinPool-1-worker-1] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: addNewElementTest()
+13:20:41.530 [ForkJoinPool-1-worker-5] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: abTestingTest()
+13:20:41.541 [ForkJoinPool-1-worker-9] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] Ok
+13:20:41.830 [ForkJoinPool-1-worker-11] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [2] Cancel
+13:20:41.864 [ForkJoinPool-1-worker-10] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] frame-bottom
+13:20:41.878 [ForkJoinPool-1-worker-8] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] Hello
+13:20:42.001 [ForkJoinPool-1-worker-7] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: iframesTest()
 ]]></system-out>
-    <system-err><![CDATA[апр. 26, 2026 12:11:45 PM org.junit.jupiter.engine.descriptor.MethodBasedTestDescriptor lambda$invokeTestWatchers$3
-WARNING: Failed to invoke TestWatcher [com.theinternet.core.TestResultLogger] for method [com.theinternet.tests.MultipleWindowsTests#multipleWindowsTest()] with display name [multipleWindowsTest()]
-org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.2', java.version: '21.0.10'
-Driver info: org.openqa.selenium.safari.SafariDriver
-Command: [null, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 26.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:experimentalWebSocketUrl: false, safari:platformBuildVersion: 25C56, safari:platformVersion: 26.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}, webkit:alwaysAllowAutoplay: false}
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:692)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:395)
-	at com.theinternet.utils.ScreenshotUtil.take(ScreenshotUtil.java:15)
-	at com.theinternet.core.TestResultLogger.testFailed(TestResultLogger.java:28)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$nodeFinished$15(TestMethodTestDescriptor.java:307)
-	at org.junit.jupiter.engine.descriptor.MethodBasedTestDescriptor.lambda$invokeTestWatchers$3(MethodBasedTestDescriptor.java:130)
-	at org.junit.platform.commons.util.CollectionUtils.forEachInReverseOrder(CollectionUtils.java:217)
-	at org.junit.jupiter.engine.descriptor.MethodBasedTestDescriptor.invokeTestWatchers(MethodBasedTestDescriptor.java:144)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.nodeFinished(TestMethodTestDescriptor.java:298)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.nodeFinished(TestMethodTestDescriptor.java:69)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.reportCompletion(NodeTestTask.java:188)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-
-]]></system-err>
   </testcase>
+  <testcase name="multipleWindowsTest" classname="com.theinternet.tests.MultipleWindowsTests" time="7.488"/>
 </testsuite>

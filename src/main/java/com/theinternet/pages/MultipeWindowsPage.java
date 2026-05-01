@@ -6,9 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class MultipeWindowsPage extends BasePage {
-
-    public MultipeWindowsPage(WebDriver driver) {
-        super(driver);
+    public MultipeWindowsPage() {
+        super();
     }
 
     @FindBy(css = "a[href$='/windows/new']")
@@ -18,12 +17,12 @@ public class MultipeWindowsPage extends BasePage {
 
     public MultipeWindowsPage openNewWindow() {
         click(newWindow);
-        return new MultipeWindowsPage(driver);
+        return new MultipeWindowsPage();
     }
     public MultipeWindowsPage switchToNewWindow() {
         waitForNumberOfWindows(2);
         switchToWindow(1);
-        return new MultipeWindowsPage(driver);
+        return new MultipeWindowsPage();
     }
 
     public String getHeader() {

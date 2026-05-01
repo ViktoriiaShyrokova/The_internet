@@ -1,0 +1,28 @@
+7254 [ForkJoinPool-1-worker-5] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: abTestingTest()
+7309 [ForkJoinPool-1-worker-4] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: userLoginWithValidCredentialsTest()
+7548 [ForkJoinPool-1-worker-3] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: simpleAlertTest()
+7748 [ForkJoinPool-1-worker-9] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] Ok
+7753 [ForkJoinPool-1-worker-2] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: multipleWindowsTest()
+7862 [ForkJoinPool-1-worker-7] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] Hello
+7885 [ForkJoinPool-1-worker-8] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: removeElementTest()
+7935 [ForkJoinPool-1-worker-1] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: addNewElementTest()
+8043 [ForkJoinPool-1-worker-10] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] frame-bottom
+8223 [ForkJoinPool-1-worker-4] INFO  c.theinternet.core.TestResultLogger - ==================================================
+8224 [ForkJoinPool-1-worker-9] INFO  c.theinternet.core.TestResultLogger - ==================================================
+8224 [ForkJoinPool-1-worker-3] INFO  c.theinternet.core.TestResultLogger - ==================================================
+8225 [ForkJoinPool-1-worker-2] INFO  c.theinternet.core.TestResultLogger - ==================================================
+8245 [ForkJoinPool-1-worker-8] INFO  c.theinternet.core.TestResultLogger - ==================================================
+8266 [ForkJoinPool-1-worker-10] INFO  c.theinternet.core.TestResultLogger - ==================================================
+8347 [ForkJoinPool-1-worker-5] INFO  c.theinternet.core.TestResultLogger - ==================================================
+8369 [ForkJoinPool-1-worker-1] INFO  c.theinternet.core.TestResultLogger - ==================================================
+8373 [ForkJoinPool-1-worker-7] INFO  c.theinternet.core.TestResultLogger - ==================================================
+8522 [ForkJoinPool-1-worker-11] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [2] Cancel
+8610 [ForkJoinPool-1-worker-11] INFO  c.theinternet.core.TestResultLogger - ==================================================
+8960 [ForkJoinPool-1-worker-6] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: iframesTest()
+9034 [ForkJoinPool-1-worker-13] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] frame-left
+9051 [ForkJoinPool-1-worker-6] INFO  c.theinternet.core.TestResultLogger - ==================================================
+9129 [ForkJoinPool-1-worker-14] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [3] frame-right
+9129 [ForkJoinPool-1-worker-12] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [2] frame-middle
+9135 [ForkJoinPool-1-worker-13] INFO  c.theinternet.core.TestResultLogger - ==================================================
+9228 [ForkJoinPool-1-worker-14] INFO  c.theinternet.core.TestResultLogger - ==================================================
+9228 [ForkJoinPool-1-worker-12] INFO  c.theinternet.core.TestResultLogger - ==================================================

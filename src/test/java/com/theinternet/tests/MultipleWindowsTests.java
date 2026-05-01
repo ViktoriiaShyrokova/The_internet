@@ -11,12 +11,12 @@ public class MultipleWindowsTests extends TestBase {
 
     @BeforeEach
     public void preconditions() {
-        new HomePage(driver).openMultipleWindows();
+        new HomePage().openMultipleWindows();
     }
 
     @Test
     public void multipleWindowsTest() {
-        MultipeWindowsPage windowsPage = new MultipeWindowsPage(driver);
+        MultipeWindowsPage windowsPage = new MultipeWindowsPage();
         windowsPage.openNewWindow()
                 .switchToNewWindow();
         Assertions.assertEquals("New Window", windowsPage.getHeader());

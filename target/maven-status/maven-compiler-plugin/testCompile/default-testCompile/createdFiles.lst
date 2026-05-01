@@ -1,1 +1,8 @@
+com/theinternet/tests/BasicAuthTests.class
 com/theinternet/core/TestResultLogger.class
+com/theinternet/core/TestBase.class
+com/theinternet/tests/MultipleWindowsTests.class
+com/theinternet/tests/AbTestingTests.class
+com/theinternet/tests/AddRemoveElementsTests.class
+com/theinternet/tests/JavascriptAlertsTests.class
+com/theinternet/tests/FramesTests.class

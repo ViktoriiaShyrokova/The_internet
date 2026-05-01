@@ -2,14 +2,12 @@ package com.theinternet.pages;
 
 import com.theinternet.core.BasePage;
 import org.junit.jupiter.api.Assertions;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class AbTestingPage extends BasePage {
-
-    public AbTestingPage(WebDriver driver) {
-        super(driver);
+    public AbTestingPage() {
+        super();
     }
 
     @FindBy(tagName = "h3")

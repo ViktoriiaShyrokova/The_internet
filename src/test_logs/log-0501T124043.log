@@ -1,0 +1,28 @@
+3940 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: multipleWindowsTest()
+4033 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+7134 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] Hello
+7222 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+10544 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] Ok
+10631 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+13776 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [2] Cancel
+13864 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+16931 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: simpleAlertTest()
+17019 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+20422 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: userLoginWithValidCredentialsTest()
+20603 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+23714 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: abTestingTest()
+23796 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+27102 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] frame-bottom
+27190 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+30843 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] frame-left
+30930 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+34509 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [2] frame-middle
+34595 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+38389 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [3] frame-right
+38477 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+42732 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: iframesTest()
+42816 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+45900 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: removeElementTest()
+45988 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+49187 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: addNewElementTest()
+49272 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================

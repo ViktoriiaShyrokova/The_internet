@@ -1,9 +1,6 @@
 package com.theinternet.core;
 
-import com.theinternet.utils.ScreenshotUtil;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,24 +10,24 @@ import org.openqa.selenium.safari.SafariDriver;
 @ExtendWith(TestResultLogger.class)
 public class TestBase {
 
-    protected WebDriver driver;
-    protected boolean testFailed;
 
     @BeforeEach
     public void init() {
-
         String browser = System.getProperty("browser", "chrome");
+        WebDriver localDriver; // создаем временную локальную переменную
 
         switch (browser) {
-            case "firefox" -> driver = new FirefoxDriver();
-            case "safari" -> driver = new SafariDriver();
-            default -> driver = new ChromeDriver();
+            case "firefox" -> localDriver = new FirefoxDriver();
+            case "safari" -> localDriver = new SafariDriver();
+            default -> localDriver = new ChromeDriver();
         }
 
-        DriverManager.setDriver(driver);
+        // Сохраняем в ThreadLocal
+        DriverManager.setDriver(localDriver);
 
-        driver.get("https://the-internet.herokuapp.com/");
-        driver.manage().window().maximize();
+        // Используем драйвер из менеджера
+        DriverManager.getDriver().get("https://the-internet.herokuapp.com/");
+        DriverManager.getDriver().manage().window().maximize();
     }
 
 

@@ -1,6 +1,8 @@
 /Users/arturvikki/QA_Projects/TheInternet/src/test/java/com/theinternet/core/TestBase.java
 /Users/arturvikki/QA_Projects/TheInternet/src/test/java/com/theinternet/core/TestResultLogger.java
 /Users/arturvikki/QA_Projects/TheInternet/src/test/java/com/theinternet/tests/AbTestingTests.java
+/Users/arturvikki/QA_Projects/TheInternet/src/test/java/com/theinternet/tests/AddRemoveElementsTests.java
+/Users/arturvikki/QA_Projects/TheInternet/src/test/java/com/theinternet/tests/BasicAuthTests.java
 /Users/arturvikki/QA_Projects/TheInternet/src/test/java/com/theinternet/tests/FramesTests.java
 /Users/arturvikki/QA_Projects/TheInternet/src/test/java/com/theinternet/tests/JavascriptAlertsTests.java
 /Users/arturvikki/QA_Projects/TheInternet/src/test/java/com/theinternet/tests/MultipleWindowsTests.java

@@ -10,12 +10,12 @@ public class AbTestingTests extends TestBase {
 
     @BeforeEach
     public void preconditions(){
-        new HomePage(driver).getAbTesting();
+        new HomePage().getAbTesting();
     }
 
     @Test
     public void abTestingTest(){
-        new AbTestingPage(driver).verifyHeader("A/B");
+        new AbTestingPage().verifyHeader("A/B");
     }
 
 }

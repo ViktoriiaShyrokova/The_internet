@@ -13,13 +13,13 @@ public class FramesTests extends TestBase {
 
     @BeforeEach
     public void preconditions() {
-        new HomePage(driver).openFramesPage();
+        new HomePage().openFramesPage();
     }
 
     @ParameterizedTest
     @ValueSource(strings = {"frame-left","frame-middle","frame-right"})
     public void nestedFramesFramesetTest(String frameName){
-        FramesPage framesPage = new FramesPage(driver);
+        FramesPage framesPage = new FramesPage();
         framesPage.openNestedFrames()
                 .switchToNestedFrame(frameName);
        Assertions.assertEquals(frameName.substring(6).toUpperCase(),framesPage.getFrameTitle());
@@ -28,7 +28,7 @@ public class FramesTests extends TestBase {
     @ParameterizedTest
     @ValueSource(strings = {"frame-bottom"})
     public void nestedFramesTest(String frameName){
-        FramesPage framesPage = new FramesPage(driver);
+        FramesPage framesPage = new FramesPage();
         framesPage.openNestedFrames()
                 .switchToFrame(frameName);
        Assertions.assertEquals(frameName.substring(6).toUpperCase(),framesPage.getFrameTitle());
@@ -36,7 +36,7 @@ public class FramesTests extends TestBase {
 
     @Test
     public void iframesTest(){
-        FramesPage framesPage = new FramesPage(driver);
+        FramesPage framesPage = new FramesPage();
         framesPage.openIframes()
                 .closeAlert()
                 .switchToIframe();

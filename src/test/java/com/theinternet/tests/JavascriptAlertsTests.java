@@ -13,12 +13,12 @@ public class JavascriptAlertsTests extends TestBase {
 
     @BeforeEach
     public void preconditions() {
-        new HomePage(driver).openJavascriptAlerts();
+        new HomePage().openJavascriptAlerts();
     }
 
     @Test
     public void simpleAlertTest() {
-        JavascriptAlertsPage alertsPage = new JavascriptAlertsPage(driver);
+        JavascriptAlertsPage alertsPage = new JavascriptAlertsPage();
         alertsPage.openSimpleAlert();
         Assertions.assertEquals("I am a JS Alert", alertsPage.getAlertText());
         alertsPage.acceptAlert();
@@ -27,7 +27,7 @@ public class JavascriptAlertsTests extends TestBase {
     @ParameterizedTest
     @ValueSource(strings = {"Ok", "Cancel"})
     public void confirmAlertTest(String action) {
-        JavascriptAlertsPage alertsPage = new JavascriptAlertsPage(driver);
+        JavascriptAlertsPage alertsPage = new JavascriptAlertsPage();
         alertsPage.openConfirmAlert();
         Assertions.assertEquals("I am a JS Confirm", alertsPage.getAlertText());
 
@@ -44,7 +44,7 @@ public class JavascriptAlertsTests extends TestBase {
     @ParameterizedTest
     @ValueSource(strings = {"Hello"})
     public void promptAlertTest(String input) {
-        JavascriptAlertsPage alertsPage = new JavascriptAlertsPage(driver);
+        JavascriptAlertsPage alertsPage = new JavascriptAlertsPage();
         alertsPage.openPromptAlert();
         Assertions.assertEquals("I am a JS prompt", alertsPage.getAlertText());
         alertsPage.typeToAlert(input);

@@ -11,11 +11,10 @@ import java.util.List;
 
 public abstract class BasePage {
 
-    protected WebDriver driver;
     protected final WebDriverWait wait;
 
-    public BasePage(WebDriver driver) {
-        this.driver = driver;
+    public BasePage() {
+        WebDriver driver = DriverManager.getDriver();
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         PageFactory.initElements(driver, this);
     }
@@ -39,7 +38,7 @@ public abstract class BasePage {
 
     public String getAlertText() {
         waitAlert();
-        return driver.switchTo().alert().getText();
+        return DriverManager.getDriver().switchTo().alert().getText();
     }
 
     private void waitAlert() {
@@ -48,24 +47,32 @@ public abstract class BasePage {
 
     public void acceptAlert() {
         waitAlert();
-        driver.switchTo().alert().accept();
+        DriverManager.getDriver().switchTo().alert().accept();
     }
 
     public void dismissAlert() {
         waitAlert();
-        driver.switchTo().alert().dismiss();
+        DriverManager.getDriver().switchTo().alert().dismiss();
     }
     public void typeToAlert(String text) {
         waitAlert();
-        driver.switchTo().alert().sendKeys(text);
+        DriverManager.getDriver().switchTo().alert().sendKeys(text);
     }
 
     protected void waitForNumberOfWindows(int expectedCount) {
-        wait.until(d -> driver.getWindowHandles().size() == expectedCount);
+        wait.until(d -> DriverManager.getDriver().getWindowHandles().size() == expectedCount);
     }
     protected void switchToWindow(int index) {
-        List<String> tabs = new ArrayList<>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(index));
+        List<String> tabs = new ArrayList<>(DriverManager.getDriver().getWindowHandles());
+        DriverManager.getDriver().switchTo().window(tabs.get(index));
+    }
+    public boolean isElementShown(WebElement element) {
+        try {
+            wait.until(ExpectedConditions.elementToBeClickable(element));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
 }

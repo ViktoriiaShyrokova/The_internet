@@ -1,0 +1,14 @@
+7290 [ForkJoinPool-1-worker-6] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: abTestingTest()
+7517 [ForkJoinPool-1-worker-3] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: simpleAlertTest()
+7690 [ForkJoinPool-1-worker-4] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: userLoginWithValidCredentialsTest()
+7794 [ForkJoinPool-1-worker-5] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] Hello
+7844 [ForkJoinPool-1-worker-11] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [2] Cancel
+7855 [ForkJoinPool-1-worker-2] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: multipleWindowsTest()
+7938 [ForkJoinPool-1-worker-1] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: addNewElementTest()
+7986 [ForkJoinPool-1-worker-7] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: removeElementTest()
+8027 [ForkJoinPool-1-worker-10] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] frame-bottom
+8053 [ForkJoinPool-1-worker-9] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] Ok
+8066 [ForkJoinPool-1-worker-13] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [1] frame-left
+8083 [ForkJoinPool-1-worker-15] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [3] frame-right
+8100 [ForkJoinPool-1-worker-12] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: [2] frame-middle
+9173 [ForkJoinPool-1-worker-8] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: iframesTest()

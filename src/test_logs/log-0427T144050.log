@@ -1,0 +1,4 @@
+3608 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: removeElementTest()
+3700 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
+7012 [main] INFO  c.theinternet.core.TestResultLogger - TEST PASSED: addNewElementTest()
+7093 [main] INFO  c.theinternet.core.TestResultLogger - ==================================================
